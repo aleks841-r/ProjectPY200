@@ -1,0 +1,56 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 220
+        length: 60
+        placeholder_text: "# TODO Импортируйте и скопируйте ранее написанный класс Book"
+        initial_state:
+          length: 60
+          offset: 220
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          class Book:
+              ...
+        selected: false
+        status: Unchecked
+      - offset: 586
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 586
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+      - offset: 840
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 840
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+      - offset: 1280
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 1280
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+    learner_created: false
+status: Unchecked
+record: -1

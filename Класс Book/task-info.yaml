@@ -1,0 +1,44 @@
+type: output
+files:
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 282
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 282
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+      - offset: 341
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 341
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+      - offset: 401
+        length: 26
+        placeholder_text: "pass # TODO дописать метод"
+        initial_state:
+          length: 26
+          offset: 401
+        initialized_from_dependency: false
+        encrypted_possible_answer: pass
+        selected: false
+        status: Unchecked
+    learner_created: false
+status: Unchecked
+record: -1

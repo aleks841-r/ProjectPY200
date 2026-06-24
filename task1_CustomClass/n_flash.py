@@ -54,7 +54,7 @@ class Flash:
         if file.name in current_data:
             raise ValueError(
                 f"[!!!] Ошибка: Невозможно добавить {file.name}"
-                f"\n[!!!] Файл с таким именем уже существует на flash накопителе!"
+                f"\n[!!!] Файл с таким именем уже существует на flash накопителе!\n"
             )
         if self.total + file.size > self.max_size:
             size = self.max_size - self.total
